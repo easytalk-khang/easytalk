@@ -105,35 +105,21 @@ body {
 
 
 .cta-btn {
-    background-color: var(--accent-color);
-    color: var(--white);
-    padding: 12px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: var(--transition);
-    box-shadow: var(--shadow);
-}
-
-.cta-btn:hover {
-    background-color: #d97706;
-    transform: scale(1.05);
-}
-
-.cta-btn {
     display: inline-block;
-    background: #ffb000;
-    color: white;
+    background-color: #ffb000;
+    color: #ffffff !important;
     padding: 15px 35px;
     border-radius: 10px;
-    text-decoration: none;
+    font-size: 1.1rem;
     font-weight: 600;
-    transition: 0.3s;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .cta-btn:hover {
-    background: #ff9800;
+    background-color: #ff9800;
     transform: translateY(-2px);
 }
 
