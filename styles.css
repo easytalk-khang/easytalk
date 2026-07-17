@@ -389,11 +389,15 @@ body {
 
 .contact-content {
     display: grid;
-    grid-template-columns: 280px 250px 1fr;
-    column-gap: 60px;
-    align-items: start;
+    grid-template-columns: 250px 250px 1fr;
+
+    gap: 50px;
+
     max-width: 1300px;
+
     margin: 0 auto;
+
+    align-items: start;
 }
 
 .contact-photo {
@@ -430,6 +434,9 @@ body {
     gap: 15px;
 }
 
+.contact-form {
+    min-width: 350px;
+}
 .contact-form input,
 .contact-form textarea {
     width: 100%;
@@ -461,18 +468,6 @@ body {
 .contact-form {
     padding: 25px;
     border-radius: 20px;
-}
-
-.contact-info {
-    border: 3px solid red;
-}
-
-.contact-photo {
-    border: 3px solid yellow;
-}
-
-.contact-form {
-    border: 3px solid lime;
 }
 
 /* Footer */
